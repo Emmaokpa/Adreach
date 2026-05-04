@@ -10,21 +10,15 @@
   - Interactive "How it works" guide.
   - Features grid.
   - Call-to-action sections.
-- **Dependencies**: Installed core packages (`convex`, `@clerk/nextjs`, `framer-motion`, `lucide-react`, `recharts`, etc.).
+- **Infrastructure**: Resolved Next.js 16 "proxy" deprecation and configured manual Convex API placeholders.
 
 ## 📝 Currently In Progress
-- **Phase 1: Foundation**
-  - [x] Project Initialization
-  - [x] Design System Setup
-  - [x] Marketing Landing Page
-  - [ ] Clerk Authentication Integration
-  - [ ] Onboarding Step 1: Business Profile (Image 1)
+- **Phase 2: Payments & Basic Campaigns**
+  - [x] Campaign Creative Upload UI (Image 2)
+  - [x] Wallet UI & Fund Modal
+  - [ ] Paystack Integration (Real Payments)
 
 ## ⏳ Next Steps (Left to Do)
-- **Phase 1: Foundation (Remaining)**
-  - Integrate Clerk and protect dashboard routes.
-  - Build the multi-step onboarding flow (Step 1, 2, and 3).
-  - Set up the Dashboard shell and sidebar.
 - **Phase 2: Payments & Basic Campaigns**
   - Integrate Paystack for NGN payments.
   - Build creative asset upload flow.

@@ -201,7 +201,7 @@ export default function LandingPage() {
             ].map((f, i) => (
               <div key={i} className="p-8 rounded-3xl glass border-white/5 hover:bg-white/[0.07] transition-all">
                 <div className="w-12 h-12 bg-white/5 rounded-xl flex items-center justify-center text-primary mb-6">
-                  {React.cloneElement(f.icon as React.ReactElement, { className: "w-6 h-6" })}
+                  {f.icon}
                 </div>
                 <h3 className="text-xl font-bold mb-3">{f.title}</h3>
                 <p className="text-slate-400 text-sm leading-relaxed">{f.desc}</p>
